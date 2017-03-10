@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "CUBE Auto Fill",
+  "version": "1.0",
+  "browser_action": {
+    "default_title": " ",
+    "default_icon" : {
+      "19": "skully.png"
+    }
+  },
+"background":{
+    "scripts": ["autoFill.js"]
+},
+"permissions": [
+      "tabs",
+      "notifications",
+      "http://*/",
+      "https://*/",
+      "activeTab",
+      "management"
+  ]
+}

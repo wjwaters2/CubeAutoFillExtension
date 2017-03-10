@@ -1,0 +1,20 @@
+{
+    "name": "Auto Fill Extension Reloader",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {"scripts": ["bg.js"] },
+    "browser_action": {
+        "default_icon": {
+      "19": "voltron.png"
+    },
+        "default_title": "Fill That Bitch Up!"
+    },
+    "permissions": [
+          "tabs",
+          "notifications",
+          "http://*/",
+          "https://*/",
+          "activeTab",
+          "management"
+      ]
+}
